@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: normal;
+    font-weight: 800;
+    src: url(Opensanshebrew-extrabold-webfont.eot);
+    src: url(opensanshebrew-extrabold-webfont.eot?#iefix) format('embedded-opentype'),
+    url(opensanshebrew-extrabold-webfont.woff) format('woff'),
+    url(opensanshebrew-extrabold-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: normal;
+    font-weight: 700;
+    src: url(Opensanshebrew-bold-webfont.eot);
+    src: url(opensanshebrew-bold-webfont.eot?#iefix) format('embedded-opentype'),
+    url(opensanshebrew-bold-webfont.woff) format('woff'),
+    url(opensanshebrew-bold-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: normal;
+    font-weight: 400;
+    src: url(Opensanshebrew-regular-webfont.eot);
+    src: url(opensanshebrew-regular-webfont.eot?#iefix) format('embedded-opentype'),
+    url(opensanshebrew-regular-webfont.woff) format('woff'),
+    url(opensanshebrew-regular-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: normal;
+    font-weight: 300;
+    src: url(Opensanshebrew-light-webfont.eot);
+    src: url(opensanshebrew-light-webfont.eot?#iefix) format('embedded-opentype'),
+    url(opensanshebrew-light-webfont.woff) format('woff'),
+    url(opensanshebrew-light-webfont.ttf) format('truetype');
+}

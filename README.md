@@ -35,9 +35,9 @@ issues, as well as missing features.
 Quick Install
 *************
 
-Step 1 : Extract the wrasa-SecurityAlarm-x.x.zip file.
-Step 2 : Move the wrasa-SecurityAlarm-x.x folder to its intended location. (e.g. http://example.com/assets/)
-Step 3 : Select the page you want to protect, then open and edit like this:
+- Step 1 : Extract the wrasa-SecurityAlarm-x.x.zip file.
+- Step 2 : Move the wrasa-SecurityAlarm-x.x folder to its intended location. (e.g. http://example.com/assets/)
+- Step 3 : Select the page you want to protect, then open and edit like this:
 
             <!DOCTYPE html>
             <?php require_once "var/www/example.com/assets/wrasa-SecurityAlarm-x.x/api/ProtectPG.php"; ?>
@@ -55,7 +55,7 @@ Step 3 : Select the page you want to protect, then open and edit like this:
                     </script>
                 </head>
 
-Step 4 : Press F12. If you see the Warning page, that means installed successfully.
+- Step 4 : Press F12. If you see the Warning page, that means installed successfully.
 
 
 *************

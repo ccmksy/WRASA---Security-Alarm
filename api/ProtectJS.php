@@ -10,7 +10,7 @@
  * @copyright	Copyright (c) 2016 - 2017, Cloud Design Limited (http://www.cloud-design.hk/)
  * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://wrasa.codage.tech
- * @since	Version 1.0.0
+ * @version     1.0.1
  * @filesource
  */
 

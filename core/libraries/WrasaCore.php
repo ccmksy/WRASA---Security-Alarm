@@ -7,7 +7,7 @@
  * @copyright	Copyright (c) 2016 - 2017, Cloud Design Limited (http://www.cloud-design.hk/)
  * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://wrasa.codage.tech
- * @since	Version 1.0.0
+ * @version     1.0.1
  * @filesource
  */
 class WrasaCore extends WrasaFunc{
@@ -64,6 +64,7 @@ class WrasaCore extends WrasaFunc{
 
                 // Redirect Blocked Notice 
                 parent::redirect_notice('', $config['BaseURL'], $lang['BlockedMsg']); 
+                exit('Banned');
             } 
         }
     }     
@@ -156,6 +157,7 @@ class WrasaCore extends WrasaFunc{
         {
             // Redirect Blocked Notice            
             parent::redirect_notice($check_for, $config['BaseURL'], $lang['BlockedMsg']);     
+            exit('Banned');
             
         }
         elseif( ! $this->is_browser($browser->getName()))
@@ -203,6 +205,7 @@ class WrasaCore extends WrasaFunc{
 
                 // Redirect Blocking Notice 
                 parent::redirect_notice($check_for, $config['BaseURL'], $lang['BlockedMsg']);  
+                exit('Banned');
             }                     
         } 
         else

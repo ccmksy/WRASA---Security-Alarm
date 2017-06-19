@@ -73,3 +73,14 @@ Attention
 - If you want to check the collected data, please go to core/data folder.
 - DON'T REMOVE core/data/default folder.
 - ENSURE the BlockList.json and SuspectList.json can be written.
+
+
+*********
+Changelog
+*********
+
+*************
+Version 1.0.1
+*************
+
+Fixed : Cannot block the IP address that has appeared in BlockList.json
